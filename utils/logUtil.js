@@ -12,7 +12,7 @@ export default {
   initPath() {
     if (logConfig.baseLogPath) {
       confirmPath(logConfig.baseLogPath)
-      //根据不同的logType创建不同的文件目录  哈哈哈顶顶顶顶顶顶顶顶
+      //根据不同的logType创建不同的文件目录  哈喔咔咔咔咔咔咔卡
       for ( let key in logConfig.appenders) {
         if (logConfig.appenders.hasOwnProperty(key)) {
           confirmPath(logConfig.baseLogPath + logConfig.appenders[key].path)
